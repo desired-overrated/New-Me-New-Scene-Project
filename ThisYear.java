@@ -14,6 +14,13 @@ private String text;
   /* 
   Constuctor
   */
+
+  public ThisYear(){
+    String goal = "";
+    String[] sofar = {""};
+    String[] SoFarText = {" "};
+    String text = "";
+  }
   
   public ThisYear(String goal, String[] soFar, String[] SoFarText, String text) {
  this.goal = goal;

@@ -261,7 +261,7 @@ public void drawStackMoments(boolean hasBoarder) {
     creates the text that displays when the pictures of my favorite moments plays
   */
 
-public void textMoments((int xPos, int yPos, int width, int height) {
+public void textMoments(int xPos, int yPos, int width, int height) {
     // text style (adjust to fit style/size)
     setTextStyle(Font.SERIF, FontStyle.BOLD);
     setTextColor("black");
